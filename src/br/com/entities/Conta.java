@@ -14,13 +14,13 @@ public abstract class Conta {
 	private String dataHora;
 	
 	
-	Thread th = new Thread();
+	
 
 	
 	public Conta() {
 		
 	}
-        
+       
 
 	public Conta(Cliente cliente) {
 		this.cliente = cliente;
