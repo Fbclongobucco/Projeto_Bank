@@ -1,6 +1,7 @@
 package br.com.entities;
 
 import java.time.LocalDate;
+import java.util.ArrayList;
 import java.util.Date;
 
 import br.com.utils.Utils;
@@ -12,6 +13,7 @@ public abstract class Conta {
 	private double saldo=0.0;
 	private Date data;
 	private String dataHora;
+	
 	
 	
 	
@@ -27,6 +29,7 @@ public abstract class Conta {
 		this.data=  new Date();
 		this.dataHora = Utils.dataFormat.format(data);
 		this.idConta = this.cliente.getId();
+		
 		
 		}
 	
